@@ -9,18 +9,18 @@ In this project data of a case study on the inner city of Amsterdam is provided.
 
 Four Python files are included at the root of this folder. The input data for the model files are stored in the data folder. The file Data_preperation.ipynb, stored in the root of this folder, creates the dataframes used in the model, and also stores them in the data folder. Several variables are used to create the input data for the model. These variables are important since they are necessary to run the model. The following variables with the building date are needed:
 
-geometry: the location of the building
-x: the x coordinate (split of the geometry)
-y: the y coordinate (split of the geometry)
-point: a combination of the x and y coordinate in string format
-oppervlakt: the surface of the building in m^2
-Hoofdfun_1: the function of the building described in a letter (only for non-residential buildings)
-Q_c_kWh: the potential waste heat in kwh (only for non-residential buildings)
-openbare_r: the street in which the building is located (not necessary when using ZIP-codes)
-postcode: the ZIP-code in which the building is located
-coldest_day: the aggregated demand or supply over the coldest day in kwh
-coldest_month: the aggregated demand or supply over the coldest month in kwh
-whole_year: the aggregated demand or supply over the whole year in kwh
+1. geometry: the location of the building
+2. x: the x coordinate (split of the geometry)
+3. y: the y coordinate (split of the geometry)
+4. point: a combination of the x and y coordinate in string format
+5. oppervlakt: the surface of the building in m^2
+6. Hoofdfun_1: the function of the building described in a letter (only for non-residential buildings)
+7. Q_c_kWh: the potential waste heat in kwh (only for non-residential buildings)
+8. openbare_r: the street in which the building is located (not necessary when using ZIP-codes)
+9. postcode: the ZIP-code in which the building is located
+10. coldest_day: the aggregated demand or supply over the coldest day in kwh
+11. coldest_month: the aggregated demand or supply over the coldest month in kwh
+12. whole_year: the aggregated demand or supply over the whole year in kwh
 
 This Python project exists of 3 separate model files. The Clustering_model.ipynb can be seen as the main file. This file takes the dataframes created in the data preparation and creates the clusters. Attention needs to be paid to the parameter settings at the beginning of the file.
 
