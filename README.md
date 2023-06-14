@@ -7,7 +7,7 @@ This project provides a tool to divide a certain urban area into several cluster
 
 In this project data of a case study on the inner city of Amsterdam is provided. Other cases can be implemented in the model as well, but may require a whole different data preparation
 
-Four Python files are included at the root of this folder. The input data for the model files are stored in the data folder. The file Data_preperation.ipynb, stored in the root of this folder, creates the dataframes used in the model, and also stores them in the data folder. Several variables are used to create the input data for the model. These variables are important since they are necessary to run the model. The following variables with the building date are needed:
+Four Python files are included at the root of this folder. The input data for the model files are stored in the data folder. The file Data_preperation.ipynb, stored in the root of this folder, creates the dataframes used in the model, and also stores them in the data folder. One shapefile of Amsterdam, needed as input data, is too large to store in the GitHub. A link to this shapefile is: https://drive.google.com/file/d/1FLBvbbcMp71xoZ-sSDFz_0eAdmklXDAH/view?usp=sharing. With this link you can download the shapefile files. To run the model with the data of Amsterdam, the files must be added to the data folder. Several variables are used to create the input data for the model. These variables are important since they are necessary to run the model. The following variables with the building date are needed:
 
 1. geometry: the location of the building
 2. x: the x coordinate (split of the geometry)
